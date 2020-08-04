@@ -1,1 +1,0 @@
-# cbc-django-project-az
