@@ -24,8 +24,8 @@ from beauty import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name='home'),
-    path('/services', views.services, name='services'),
-    path('/team', views.team, name='team'),
+    path('services', views.services, name='services'),
+    path('team', views.team, name='team'),
     path('beauty/<int:service_id>/', views.service_details, name='service_details'),
 
 ]
