@@ -1,0 +1,14 @@
+{% extends "base.html" %} {% block content %}
+
+
+<div style="margin-top: 40px;">
+    <h1>{{service.name}} </h1>
+    <img src="{{ service.image.url }}" width="220px" height="250px">
+    <br>
+    <h3>Price: {{service.price}}</h3>
+    <h3>Duration: {{service.duration}}</h3>
+    <h3>Performed by our specialist <strong>{% for tech in service.performed_by.all %} {{tech.name}} {% endfor %}</strong>
+    </h3>
+    <p> {{service.description}} </p>
+</div>
+<hr> {% endblock content %}
