@@ -34,4 +34,4 @@ Additionally, the project was deployed on Heroku to enable testing and review ht
 
 <hr>
 
-We hope you will enjoy your exploration of our website!
+I hope you will enjoy the exploration of our website!
